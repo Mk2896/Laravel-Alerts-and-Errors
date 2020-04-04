@@ -6,7 +6,7 @@
 <script>
 Swal.fire({
 type: "{{ session('message.head') }}",
-title: "{{ session('message.sad') }}",
+title: "{{ session('message.title') }}",
 text: "{{ session('message.body') }}",
 })
 </script>
