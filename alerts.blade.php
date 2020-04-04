@@ -5,8 +5,8 @@
 @if(session()->has('message.head'))
 <script>
 Swal.fire({
-type: "{{ session('message.sad') }}",
-title: "{{ session('message.title') }}",
+type: "{{ session('message.head') }}",
+title: "{{ session('message.sad') }}",
 text: "{{ session('message.body') }}",
 })
 </script>
